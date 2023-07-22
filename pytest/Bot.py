@@ -14,7 +14,7 @@ async def send_message(message, user_message,is_private):
     
 
 def run_Discord_Bot():
-    TOKEN = 'MTEzMjE0ODU3MDE1NDM1Njc0Ng.GI5mVA.rYMQHV6pcLLYwva1oJLjQZH19y6zEh7aEe8whc'
+    TOKEN = '00000000000000000000000000000000000000000000000000000'
     intents = discord.Intents.default()
     intents.message_content = True
     intents.guild_messages = True
