@@ -15,19 +15,16 @@ def get_response(message: str) -> str:
             if word_to_define in definitions:
                 return definitions[word_to_define]
 
-    if message.lower() == 'roll':
-        return str(random.randint(1, 6))
 
     if message.lower() == '!help':
         return '''`Guide:
 - Activation - Define 
 - limited definitions
-- Utilizes the Webster dictionary
-- Type "roll" to roll the dice :)`'''
+- Utilizes the Webster dictionary`'''
 
-    greetings = ['hello','helo','hey there', 'hey','hia', 'yo', 'you there?', 'hi']
+    greetings = ['hello',','hey there', 'hey','hia', 'yo', 'you there?', 'hi']
     if message.lower() in greetings:
-        return "Hey!" + " Type !help for a Bot Guide"
+        return "Hey! Type !help for a Bot Guide"
     
 
     print(f"Unhandled message: '{message}'")
