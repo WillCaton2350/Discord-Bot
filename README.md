@@ -1,5 +1,5 @@
 # Discord-Bot
-Discord chatbot that provides definitions from Webster's dictionary in public and private discord channels. Written in Python3 with Discord's API. Dataset in JSON.
+Discord chatbot that provides definitions from Webster's dictionary in public and private discord channels. Written in Python3 with Discord's API. Dataset in JSON. Dictionary Bot - "Define"
 
 
  
